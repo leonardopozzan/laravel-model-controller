@@ -16,9 +16,11 @@
 </head>
 
 <body>
-
+    <h1 class="text-white text-center fw-bold text-uppercase py-4">
+        Il database dei tuoi film
+    </h1>
    <main>
-    @yield('content')
+    <div class="container">@yield('content')</div>
    </main>
 
 </body>
